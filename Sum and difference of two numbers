@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int n1,n2,r1,r2;
+    float n3,n4,r3,r4;
+    
+
+    scanf("%d",&n1);
+    
+    scanf("%d",&n2);
+    
+    scanf("%f",&n3);
+    
+    scanf("%f",&n4);
+
+    r1=n1+n2;
+    r2=n1-n2;
+
+    r3=n3+n4;
+    r4=n3-n4;
+
+    printf("%d",r1);
+    printf(" ");
+    printf("%d",r2);
+    printf("\n");
+    printf("%.1f",r3);
+    printf(" ");
+    printf("%.1f",r4);
+    
+
+    return 0;
+}
+
+Thank You :)
